@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Internshp_project</string>
+    <string name="food_hub">FOOD HUB</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_help">help</string>
+    <string name="title_activity_order_menu">order_menu</string>
+    <string name="title_activity_order_main">order_main</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="order1">pizza</string>
+    <string name="menu">MENU</string>
+    <string name="title_activity_final">Final</string>
+</resources>

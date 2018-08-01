@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.internshp_project.Final"
+    android:background="@color/colorPrimaryDark"
+
+
+   >
+
+    <TextView
+        android:id="@+id/tvitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="223dp"
+        android:textColorHighlight="@color/red"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvitems"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="123dp"
+        android:layout_toEndOf="@+id/tvitems"
+        android:textColorHighlight="@color/white"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Congrats your order is successfully placed!"
+        android:textColor="@color/red"
+        android:fontFamily="@font/purple_purse"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/gif3"
+        android:layout_marginBottom="10dp"
+
+
+        />
+
+</RelativeLayout>
